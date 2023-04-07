@@ -11,6 +11,7 @@ body {
 }
 
 header {
+  
   background-color: #222;
   color: #fff;
   text-align: center;
@@ -40,13 +41,15 @@ header nav {
 
 
 
-.container {
+section {
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #fefefe 50%, #f9f9f9 50%);
 }
+
 
 .product {
   border: 1px solid #ddd;
@@ -78,23 +81,18 @@ header nav {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
-  .container {
-    background: linear-gradient(to right, #fefefe 50%, #f9f9f9 50%);
-  }
-}
+
 
 .pies{
-
+  position: fixed;
+   bottom: 0%;
   width: 100%;
   background-color: #222;
   height: 75px;
-  margin-top: 10px;
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-   
 }
 
 .pies a {
@@ -125,3 +123,14 @@ header nav {
 .boton-comprar:hover {
   background-color: #3e8e41; 
 }
+
+@media (max-width:768px) {
+  .listMenu {
+    display: block;
+    font-size: 30px;
+    
+  }
+}
+
+
+

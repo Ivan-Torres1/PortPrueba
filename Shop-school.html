@@ -3,6 +3,7 @@
   <head>
     <title>Shop</title>
     <link rel="stylesheet" href="shopstyle.css">
+    
   </head>
   <body>
 
@@ -10,21 +11,23 @@
       <h1>Kiosco el Sanfra</h1>
       <nav>
         <ul class="listMenu">
-          <li><a href="#">Chatarra</a></li>
-          <li><a href="shop-gaseosas.html">Gaseosas</a></li>
-          <li><a href="#">Sanguches</a></li>
-          <li><a href="#">Golosinas</a></li>
+          <li><a href="#" class="links" data-target="Chatarra">Chatarra</a></li>
+          <li><a href="#" class="links" data-target="Gaseosas">Gaseosas</a></li>
+          <li><a href="#" class="links" data-target="Sanguches">Sanguches</a></li>
+          <li><a href="#" class="links" data-target="Golosinas">Golosinas</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
 
-      <div class="container">
-        <div class="product">
-          <img src="alfa.jpeg" alt="Producto 1">
-          <h2>Alfajor</h2>
-          <span class="price">$50.00</span>
+                    <!-- Seccion CHATARRA -->
+      <section class="responsive" id="Chatarra"> 
+        
+          <div class="product">
+            <img src="alfa.jpeg" alt="Producto 1">
+            <h2>Alfajor rico</h2>
+            <span class="price">$50.00</span>
         </div>
 
         <div class="product">
@@ -51,10 +54,54 @@
           <span class="price">$40.00</span>
         </div>
 
+        </section>
+          <!-- Seccion GESEOSAS -->
+        <section class="responsive" id="Gaseosas" style="display:none"> 
+        
+          <div class="product">
+            <img src="alfa.jpeg" alt="Producto 1">
+            <h2>Caca</h2>
+            <span class="price">$50.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 2">
+          <h2>Alfafa</h2>
+          <span class="price">$30.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 3">
+          <h2>Gordito rico</h2> 
+          <span class="price">$25.00</span>
+        </div>
+
         <div class="product">
           <img src="alfa.jpeg" alt="Producto 4">
-          <h2>Ricobich</h2> 
+          <h2>Ricobich</h2>
           <span class="price">$40.00</span>
+        </div>
+
+        </section>
+          <!-- Seccion SANGUCHES -->
+        <section class="responsive" id="Sanguches"> 
+        
+          <div class="product">
+            <img src="alfa.jpeg" alt="Producto 1">
+            <h2>Alfajor rico</h2>
+            <span class="price">$50.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 2">
+          <h2>Alfafa</h2>
+          <span class="price">$30.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 3">
+          <h2>Gordito rico</h2> 
+          <span class="price">$25.00</span>
         </div>
 
         <div class="product">
@@ -69,14 +116,44 @@
           <span class="price">$40.00</span>
         </div>
 
-      </div>
+        </section>
+          <!-- Seccion GOLOSINAS -->
+        <section class="responsive" id="Golosinas" style="display:none"> 
+        
+          <div class="product">
+            <img src="alfa.jpeg" alt="Producto 1">
+            <h2>Chocolatoso</h2>
+            <span class="price">$50.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 2">
+          <h2>Alfafa</h2>
+          <span class="price">$30.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 3">
+          <h2>Gordito rico</h2> 
+          <span class="price">$25.00</span>
+        </div>
+
+        <div class="product">
+          <img src="alfa.jpeg" alt="Producto 4">
+          <h2>Ricobich</h2>
+          <span class="price">$40.00</span>
+        </div>
+
+        </section> 
+
     </main>
-
-    <footer class="pies">
-      <!-- <a href="google.com" target="_blank">Contactame</a> -->
-      <a href="https://api.whatsapp.com/send?phone=3413498566&
-      text=Datos obligatorios. Nombre y año en el que estes - producto (ser lo mas especifico posible)" target="_blank" class="boton-comprar">Pedir</a>
-    </footer>
-
+     
+      <footer class="pies">
+        <!-- <a href="google.com" target="_blank">Contactame</a> -->
+        <a href="https://api.whatsapp.com/send?phone=3413498566&
+        text=Datos obligatorios. Nombre y año en el que estes - producto (ser lo mas especifico posible)" target="_blank" class="boton-comprar">Pedir</a>
+      </footer>
+  
+  <script src="ShopJs.js"></script>  
   </body>
 </html>
