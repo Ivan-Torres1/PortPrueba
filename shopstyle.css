@@ -58,3 +58,46 @@ header {
     background: linear-gradient(to right, #fefefe 50%, #f9f9f9 50%);
   }
 }
+
+.pies{
+
+  width: 100%;
+  background-color: #222;
+  height: 75px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+}
+
+.pies a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.boton-comprar {
+  background-color: #4CAF50;
+  border: none; 
+  color: white;
+  padding: 10px 20px;
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 16px; 
+  margin: 10px; 
+  cursor: pointer; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all .5s ease;
+}
+.boton-comprar:hover{
+  transition: all .5s ease;
+}
+
+.boton-comprar:hover {
+  background-color: #3e8e41; 
+}
