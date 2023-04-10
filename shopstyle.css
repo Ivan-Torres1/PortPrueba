@@ -4,10 +4,12 @@
 }
 
 body {
+  display: block;
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow: auto;
 }
 
 
@@ -17,7 +19,7 @@ header {
   color: #fff;
   text-align: center;
   padding: 2em;
-  height: auto;
+  height: 11em;
   
 }
 .responsive {
@@ -52,12 +54,13 @@ header nav {
 
 
 section {
-  height: 14em;
+  height: 31em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #fefefe 50%, #f9f9f9 50%);
+  overflow: auto;
 }
 
 
@@ -95,25 +98,24 @@ section {
 
 
 .pies{
-  position: fixed;
-   bottom: 0%;
+  position: absolute;
+  bottom: 0%;
   width: 100%;
   background-color: #222;
   height: 10%;
-  margin-top: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .boton-comprar {
+  
   background-color: #4CAF50;
   border: none; 
   color: white;
-  padding: .5em 1em;
+  padding: .5em .8em;
   text-align: center; 
   text-decoration: none; 
-  display: inline-block;
   font-size: 2em;  
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -135,5 +137,5 @@ section {
  img {
     max-width: 100%;
  }
-
+}
 
