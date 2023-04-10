@@ -21,7 +21,7 @@ header {
   
 }
 .responsive {
-  height: 100%;
+  width: 100%;
 }
 
 header h1{
@@ -71,6 +71,7 @@ section {
 }
 
 .product img {
+  width: 18em;
   max-width: 100%;
   height: auto;
 }
@@ -127,15 +128,12 @@ section {
 
 @media screen and (max-width:767px) {
   .listMenu {
+    display: block;}
+  .product {
     display: block;
-
   }
-  .responsive {
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
- 
-}
+ img {
+    max-width: 100%;
+ }
 
 
